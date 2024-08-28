@@ -3,3 +3,7 @@ res://player.gd
 res://hb_game.tscn
 res://scenes/hb_game.tscn
 res://scenes/player.tscn
+res://scenes/pine_tree.tscn
+res://scenes/mob.tscn
+res://scripts/mob.gd
+res://scripts/player.gd

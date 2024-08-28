@@ -1,13 +1,60 @@
-[gd_scene load_steps=2 format=3 uid="uid://c3h374ewvifd4"]
+[gd_scene load_steps=4 format=3 uid="uid://c3h374ewvifd4"]
 
 [ext_resource type="PackedScene" uid="uid://cdw6ydexoe60x" path="res://scenes/player.tscn" id="1_2d2mp"]
+[ext_resource type="PackedScene" uid="uid://k35oohyjpwa3" path="res://scenes/pine_tree.tscn" id="2_qx1di"]
+[ext_resource type="PackedScene" uid="uid://dy2wtesuabv38" path="res://scenes/mob.tscn" id="3_ec162"]
 
 [node name="Game" type="Node2D"]
+y_sort_enabled = true
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -5
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 offset_left = -2.0
 offset_right = 1957.0
 offset_bottom = 1114.0
 
 [node name="Player" parent="." instance=ExtResource("1_2d2mp")]
-position = Vector2(233, 173)
+position = Vector2(851, 512)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="PineTree" parent="." instance=ExtResource("2_qx1di")]
+position = Vector2(1350, 325)
+
+[node name="PineTree2" parent="." instance=ExtResource("2_qx1di")]
+position = Vector2(1279, 409)
+
+[node name="PineTree3" parent="." instance=ExtResource("2_qx1di")]
+position = Vector2(1436, 387)
+
+[node name="PineTree4" parent="." instance=ExtResource("2_qx1di")]
+position = Vector2(1617, 683)
+
+[node name="PineTree5" parent="." instance=ExtResource("2_qx1di")]
+position = Vector2(1289, 939)
+
+[node name="PineTree6" parent="." instance=ExtResource("2_qx1di")]
+position = Vector2(338, 539)
+
+[node name="PineTree7" parent="." instance=ExtResource("2_qx1di")]
+position = Vector2(450, 900)
+
+[node name="PineTree8" parent="." instance=ExtResource("2_qx1di")]
+position = Vector2(747, 275)
+
+[node name="PineTree9" parent="." instance=ExtResource("2_qx1di")]
+position = Vector2(558, 598)
+
+[node name="Mob" parent="." instance=ExtResource("3_ec162")]
+position = Vector2(946, 878)
+
+[node name="Mob2" parent="." instance=ExtResource("3_ec162")]
+position = Vector2(1274, 652)
+
+[node name="Mob3" parent="." instance=ExtResource("3_ec162")]
+position = Vector2(1067, 342)
+
+[node name="Mob4" parent="." instance=ExtResource("3_ec162")]
+position = Vector2(340, 305)
