@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://c1nubcob8pgbt"]
+
+[ext_resource type="Texture2D" uid="uid://cswb5do8rrj7q" path="res://pistol/pistol.png" id="1_re4ep"]
+[ext_resource type="Script" path="res://scripts/gun.gd" id="1_v842o"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yp8xd"]
+radius = 505.57
+
+[node name="Gun" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_v842o")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_yp8xd")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+
+[node name="Pistol" type="Sprite2D" parent="Marker2D"]
+position = Vector2(93, -14)
+texture = ExtResource("1_re4ep")
+
+[node name="ShootingPoint" type="Marker2D" parent="Marker2D/Pistol"]
+position = Vector2(26, -12)
