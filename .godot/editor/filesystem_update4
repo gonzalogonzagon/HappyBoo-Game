@@ -1,8 +1,10 @@
 res://scenes/player.tscn
+res://scripts/player.gd
 res://scenes/hb_game.tscn
 res://scenes/pine_tree.tscn
 res://scenes/mob.tscn
 res://scenes/gun.tscn
-res://scripts/gun.gd
 res://scenes/bullet.tscn
-res://scripts/bullet.gd
+res://scripts/gun.gd
+res://scripts/mob.gd
+res://characters/slime/slime.tscn
