@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://c3h374ewvifd4"]
+[gd_scene load_steps=7 format=3 uid="uid://c3h374ewvifd4"]
 
 [ext_resource type="PackedScene" uid="uid://cdw6ydexoe60x" path="res://scenes/player.tscn" id="1_2d2mp"]
 [ext_resource type="Script" path="res://scripts/hb_game.gd" id="1_hhm2k"]
 [ext_resource type="PackedScene" uid="uid://k35oohyjpwa3" path="res://scenes/pine_tree.tscn" id="2_qx1di"]
 [ext_resource type="Script" path="res://scripts/mob_timer.gd" id="4_km2bg"]
+[ext_resource type="Script" path="res://scripts/time_out.gd" id="4_yvuns"]
 
 [sub_resource type="Curve2D" id="Curve2D_pjmpn"]
 _data = {
@@ -68,10 +69,6 @@ wait_time = 0.7
 autostart = true
 script = ExtResource("4_km2bg")
 
-[node name="TGameOver" type="Timer" parent="."]
-wait_time = 1.5
-one_shot = true
-
 [node name="GameOver" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 visible = false
@@ -100,6 +97,11 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 128
 text = "Game Over"
 
+[node name="TimeOut" type="Timer" parent="GameOver"]
+wait_time = 1.5
+one_shot = true
+script = ExtResource("4_yvuns")
+
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="MobTimer" to="MobTimer" method="_on_timeout"]
-[connection signal="timeout" from="TGameOver" to="." method="_on_t_game_over_timeout"]
+[connection signal="timeout" from="GameOver/TimeOut" to="GameOver/TimeOut" method="_on_timeout"]

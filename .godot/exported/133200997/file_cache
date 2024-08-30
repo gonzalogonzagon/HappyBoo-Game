@@ -1,0 +1,13 @@
+res://characters/happy_boo/happy_boo.tscn::64e0a0ddf8235feeb2bc5bd8a4456cb8::1695668179::res://.godot/exported/133200997/export-d648d95b60292c6ab5a2df3cfa132f65-happy_boo.scn
+res://characters/happy_boo/square_modification_stack.tres::c50df0cb08042a928161eb2d35e7a5f9::1695668179::res://.godot/exported/133200997/export-f25555e8dbdc63b0046bd11dbf14cb6d-square_modification_stack.res
+res://characters/slime/slime.tscn::4109dfdd6b05c79de6f9acdffb60aab6::1725034231::res://.godot/exported/133200997/export-00cd1686d0dcba26ac4404616e000a71-slime.scn
+res://pistol/impact/impact.tscn::69097d817a9970689e0d7bb3c15d7006::1695668179::res://.godot/exported/133200997/export-23af5b5b4b536de664300f16912ab0a5-impact.scn
+res://pistol/muzzle_flash/muzzle_flash.tscn::cb1cee9861385d5ab2cf0b891d413f09::1695668179::res://.godot/exported/133200997/export-b157f8b9faf8fae6f6c4fc021b88b5f1-muzzle_flash.scn
+res://scenes/bullet.tscn::3f18cc9c7f770cbe2987d3e4e21dd227::1725034231::res://.godot/exported/133200997/export-6d8e6ff1e6f20a36e0402d27c623c86c-bullet.scn
+res://scenes/gun.tscn::b266178abb2f8b821493f0f71c33da7e::1725034231::res://.godot/exported/133200997/export-e8b70ebe6a89c3504564097573c2ce26-gun.scn
+res://scenes/hb_game.tscn::cfb47354712f45a3fcbc5c6ff60fcfbb::1725039558::res://.godot/exported/133200997/export-88380c9cd278d8b0b0b1c92a4d0eeab3-hb_game.scn
+res://scenes/mob.tscn::b9c687f8b9d0e815192e1c2dbe569597::1725039234::res://.godot/exported/133200997/export-12225c12b25e8d9ce131a444da159cba-mob.scn
+res://scenes/pine_tree.tscn::f2651ca2bd8a03dab13d96c2e2828864::1725034231::res://.godot/exported/133200997/export-e0afc551313f7bfcbeae721a209906ee-pine_tree.scn
+res://scenes/player.tscn::780599e9a510af75cbb678060e2ea876::1725039234::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://smoke_explosion/smoke_explosion.tscn::0235eab75112ef52a3f22bf2fa910719::1695668179::res://.godot/exported/133200997/export-e72ef0eae21a758bfc24d9e4f444eb60-smoke_explosion.scn
+res://default_bus_layout.tres::f79fcacca07a2d471d5d1918fc173cbc::1695668179::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res

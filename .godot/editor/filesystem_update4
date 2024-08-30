@@ -1,10 +1,13 @@
+res://scenes/mob.tscn
+res://scripts/mob.gd
 res://scenes/player.tscn
-res://scripts/player.gd
 res://scenes/hb_game.tscn
 res://scenes/pine_tree.tscn
-res://scenes/mob.tscn
 res://scenes/gun.tscn
 res://scenes/bullet.tscn
-res://scripts/gun.gd
-res://scripts/mob.gd
 res://characters/slime/slime.tscn
+res://scripts/player.gd
+res://scripts/hb_game.gd
+res://scripts/time_out.gd
+res://scripts/mob_timer.gd
+res://scripts/gun.gd
